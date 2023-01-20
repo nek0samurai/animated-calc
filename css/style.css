@@ -1,0 +1,212 @@
+
+
+
+/*=============CALC=================*/
+
+.container-calc {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 25px 5px;
+}
+
+.calc-header{
+    text-align: center; 
+    font-size: 30px; 
+    font-weight: bold; 
+    color: #000; 
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.calc-body {
+    margin: auto;
+    box-shadow: var(--box-shadow);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 520px;
+    width: 100%;
+}
+
+.container-calc .calc-screen {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container-calc .calc-operation .title {
+    color: #000;
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 5px;
+    display: block;
+    margin: 15px 0;
+}
+
+.container-calc .calc-operation .no-title {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+}
+
+.container-calc .calc-typed {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    text-align: right;
+    color: #000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container-calc .calc-month{
+    display: block;
+    font-size: 30px;
+    border: 8px solid #000;
+    text-align: center;
+}
+
+.container-calc .calc-result-block {
+    width: 100%;
+    background: #858585;
+}
+
+.container-calc .calc-result-block {
+    width: 100%;
+    background: var(--white);
+    display: block;
+    text-align: center;
+}
+
+.container-calc .calc-buuton .button {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px auto;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    border: 5px solid #000;
+    background-color: #000;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.container-calc .button:hover {
+    background-color: var(--grey);
+    color: var(--white);
+    transition: all 0.3s ease-out;
+}
+
+.container-calc .calc-result-block .count-b.active {
+    background: #fff;
+    color: #000;
+}
+
+.container-calc .calc-result-block .count-b {
+    background: #fff;
+    color: var(--black);
+    padding: 10px 10px;
+    display: flex;
+    font-size: 21px;
+    min-width: 100px;
+    text-align: center;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #000;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    font-size: 24px;
+}
+
+
+.container-calc .result-block .text-b {
+    font-size: 12px;
+    color: #000;
+    margin: 5px 0;
+}
+
+.container-calc .input {
+    color: #000;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    padding: 2px 0;
+    position: relative;
+    width: 120px;
+    transition: all 0.2s ease-in-out;
+    border: 6px solid #000;
+}
+
+.container-calc .input:focus {
+    transition: all 0.2s ease-in-out;
+    outline: none;
+    border: 1px dotted #000;
+}
+
+.container-calc input::-webkit-input-placeholder {
+    color: #000;
+    font-family: sans-serif;
+}
+.container-calc .Ñalc-main {
+    margin-top: 30px;
+    border-top: #000 dotted 1px;
+    padding: 10px;
+}
+.container-calc .count-b .doll {
+    margin-left: 3px;
+}
+
+.container-calc .logo-block {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container-calc .logo-block img {
+    padding: 0;
+    max-width: 30px;
+    margin-right: 5px;
+}
+
+.container-calc .logo-block span {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.calc-link__button{
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    display: block;
+    border: 3px solid #000;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.calculator{
+    background-image: url(../img/presentation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.calc-typed{
+    color: #fff;
+}
+.calc-typed input{
+    border: none;
+}
